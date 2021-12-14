@@ -1,4 +1,4 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="zq74x30fLMR$|Gc(xYp#" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundimage" id=";7ou%c;OaaV9=p(DDv`O"><value name="img"><shadow type="background_image_picker" id="b1T/I]6GnaaJtfk};SXY"><field name="img">img`
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id=",Ms{_V%E:~zLL_!X%^U[">mySprite</variable><variable type="KIND_SpriteKind" id="d[IUb#tcn9^Wc-Q}hr;U">Player</variable><variable type="KIND_SpriteKind" id="LYo7=d;v}Xa+[Z_5}|vv">Projectile</variable><variable type="KIND_SpriteKind" id="l{0i%tBAqUX!UHxd2a~|">Food</variable><variable type="KIND_SpriteKind" id=":iUqo%kslYmHPT*kJFQi">Enemy</variable></variables><block type="pxt-on-start" id="xRRgvHNlG#rZ^u`HECiY" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundimage" id="Xv:0dc1(EPh||Kq;FJ%]"><value name="img"><shadow type="background_image_picker" id="L8t]GExdjIhptkpKS^g5"><field name="img">img`
 8fffffffffffffffffffffffff88fffff88ffff8998889999999989988888989999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
 ffffffffffffffffffffffffff8fffff88ff9f88889889999999989998888898999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
 fffffffffffffffffffffffff8fffff889ff9988888988999989998999888889899999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999
@@ -119,4 +119,21 @@ f8888888888888888888888888888888888888888888888888888888888888899888888999988999
 66ccccccccccccc66665cccccccccccccccccccc666cccc6444444ccc6cccccbb6666566666666f6666fffffffff66666666666666666cccccccccccccccccccccccccccccc666cccccccccccccc66cc
 6cccccccccccccc66666ccccccccccccccccccc6666cccc6644bccccccccccccc8666666666666f66666ffffffff666666666666666666ccccccccccccccccccccccccccccccccccccccccccccccccc8
 6cccccccccccccc66666ccccccccccccccccccc666ccccc6666ccccccccccccccf666666666666ff6666ffffffff6666666666666666666ccccccccccccccc6cccccccccccccccccccccccccccccccc8
-`</field><data>{"commentRefs":[],"fieldData":{"img":"b1T/I]6GnaaJtfk};SXY"}}</data></shadow></value><next><block type="particlesStartScreenAnimation" id="m^,#=fDtD]EO5U/6J]=S"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><field name="effect">effects.confetti</field></block></next></block></statement></block></xml>
+`</field><data>{"commentRefs":[],"fieldData":{"img":"L8t]GExdjIhptkpKS^g5"}}</data></shadow></value><next><block type="variables_set" id="Zg#t)v./bMlQzE}1gD@r"><field name="VAR" id=",Ms{_V%E:~zLL_!X%^U[">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="u?|m*/k*@m~G*Ln8C)9("><value name="img"><shadow type="screen_image_picker" id="Gh.0R=$COC^#bCjbEvRf"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"Gh.0R=$COC^#bCjbEvRf"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="%z`x$eClY]6;bKHnEMQ;"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="@qIyr#5vX*N0n.ONkv=-"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id="D`5$6xwC|@=T%x@o570~"><field name="VAR" id=",Ms{_V%E:~zLL_!X%^U[">mySprite</field></block></value></block></next></block></next></block></statement></block></xml>
